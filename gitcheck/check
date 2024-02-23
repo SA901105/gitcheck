@@ -1,0 +1,35 @@
+Last login: Fri Feb 23 12:05:01 on ttys000
+makiayaka@sugitatakukinoMacBook ~ % ls
+Applications		Library			Public
+Desktop			Movies			git_tutorial
+Documents		Music			html-css-advanced-kadai
+Downloads		Pictures
+makiayaka@sugitatakukinoMacBook ~ % cd Desktop  
+makiayaka@sugitatakukinoMacBook Desktop % cd kadai_tutorial_output
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % ls
+images		index.html	mission.html	product.html	style.css
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git add .
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git commit -m "課題提出"  
+
+On branch main
+nothing to commit, working tree clean
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % 
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git status             
+On branch main
+nothing to commit, working tree clean
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote add origin　https://github.com/SA901105/html-css-advanced-kadai.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --[no-]fetch      fetch the remote branches
+    --[no-]tags           import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --[no-]track <branch>
+                          branch(es) to track
+    -m, --[no-]master <branch>
+                          master branch
+    --[no-]mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote -v
+
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % 
