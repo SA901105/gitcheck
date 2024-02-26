@@ -1,49 +1,27 @@
-Last login: Mon Feb 26 00:43:12 on ttys000
+Last login: Mon Feb 26 20:42:59 on ttys000
 makiayaka@sugitatakukinoMacBook ~ % ls
 Applications		Library			Public
 Desktop			Movies			git_tutorial
 Documents		Music			html-css-advanced-kadai
 Downloads		Pictures
-makiayaka@sugitatakukinoMacBook ~ % cd Desktop
+makiayaka@sugitatakukinoMacBook ~ % cd Desktop  
 makiayaka@sugitatakukinoMacBook Desktop % cd kadai_tutorial_output
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git init
-Reinitialized existing Git repository in /Users/makiayaka/Desktop/kadai_tutorial_output/.git/
 makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git add .
 makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git commit -m "初回コミ ット"
 On branch main
 nothing to commit, working tree clean
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote add kadai_tutorial_output
-usage: git remote add [<options>] <name> <url>
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote add origin kadai_tutorial_output
+error: remote origin already exists.
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % 
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git push -u prigin main
+fatal: 'prigin' does not appear to be a git repository
+fatal: Could not read from remote repository.
 
-    -f, --[no-]fetch      fetch the remote branches
-    --[no-]tags           import all tags and associated objects when fetching
-                          or do not fetch any tag at all (--no-tags)
-    -t, --[no-]track <branch>
-                          branch(es) to track
-    -m, --[no-]master <branch>
-                          master branch
-    --[no-]mirror[=(push|fetch)]
-                          set up remote as a mirror to push to or fetch from
-
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote add origin https://github.com/SA901105/html-css-basic-kadai.git
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote -v
-
-origin	https://github.com/SA901105/html-css-basic-kadai.git (fetch)
-origin	https://github.com/SA901105/html-css-basic-kadai.git (push)
+Please make sure you have the correct access rights
+and the repository exists.
 makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git push -u origin main
-
 Username for 'https://github.com': 0213
 Password for 'https://0213@github.com': 
-remote: Support for password authentication was removed on August 13, 2021.
-remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/SA901105/html-css-basic-kadai.git/'
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote -v
-
-origin	https://github.com/SA901105/html-css-basic-kadai.git (fetch)
-origin	https://github.com/SA901105/html-css-basic-kadai.git (push)
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git push -u origin main
-Username for 'https://github.com': SA901105
-Password for 'https://SA901105@github.com': 
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
 fatal: Authentication failed for 'https://github.com/SA901105/html-css-basic-kadai.git/'
