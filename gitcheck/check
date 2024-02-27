@@ -1,28 +1,90 @@
-Last login: Mon Feb 26 20:42:59 on ttys000
+Last login: Tue Feb 27 17:55:11 on ttys000
 makiayaka@sugitatakukinoMacBook ~ % ls
 Applications		Library			Public
 Desktop			Movies			git_tutorial
 Documents		Music			html-css-advanced-kadai
 Downloads		Pictures
-makiayaka@sugitatakukinoMacBook ~ % cd Desktop  
-makiayaka@sugitatakukinoMacBook Desktop % cd kadai_tutorial_output
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git add .
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git commit -m "初回コミ ット"
-On branch main
-nothing to commit, working tree clean
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git remote add origin kadai_tutorial_output
-error: remote origin already exists.
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % 
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git push -u prigin main
-fatal: 'prigin' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % git push -u origin main
-Username for 'https://github.com': 0213
-Password for 'https://0213@github.com': 
-remote: Support for password authentication was removed on August 13, 2021.
-remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/SA901105/html-css-basic-kadai.git/'
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output % 
+makiayaka@sugitatakukinoMacBook ~ % cd Desktop
+makiayaka@sugitatakukinoMacBook Desktop % cd kadai_tutorial_output2            
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git init
+Initialized empty Git repository in /Users/makiayaka/Desktop/kadai_tutorial_output2/.git/
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git add .
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git commit -m "最初のコミット"
+[main (root-commit) d6af928] 最初のコミット
+ 47 files changed, 1984 insertions(+)
+ create mode 100644 images/TOP.png
+ create mode 100644 images/arrow.png
+ create mode 100644 images/button-close.png
+ create mode 100644 images/button-facebook.png
+ create mode 100644 images/button-menu.png
+ create mode 100644 images/button-more.png
+ create mode 100644 images/button-submit.png
+ create mode 100644 images/button-twitter.png
+ create mode 100644 images/button-youtube.png
+ create mode 100644 images/index/index-aboutus1.png
+ create mode 100644 images/index/index-aboutus2.png
+ create mode 100644 images/index/index-b2b.png
+ create mode 100644 images/index/index-career.png
+ create mode 100644 images/index/index-main.png
+ create mode 100644 images/index/index-mantoman.png
+ create mode 100644 images/index/index-media.png
+ create mode 100644 images/index/index-mission.png
+ create mode 100644 images/index/s2dgs.png
+ create mode 100644 images/index/vision-01.png
+ create mode 100644 images/index/vision-02.png
+ create mode 100644 images/index/vision-03.png
+ create mode 100644 images/index/vision-04.png
+ create mode 100644 images/index/vision-05.png
+ create mode 100644 images/index/vision-06.png
+ create mode 100644 images/index/vision-07.png
+ create mode 100644 images/line.png
+ create mode 100644 images/logo-sp.png
+ create mode 100644 images/logo.png
+ create mode 100644 images/mission/mission-5goals.png
+ create mode 100644 images/mission/mission-5goals01.png
+ create mode 100644 images/mission/mission-5goals02.png
+ create mode 100644 images/mission/mission-5goals03.png
+ create mode 100644 images/mission/mission-5goals04.png
+ create mode 100644 images/mission/mission-5goals05.png
+ create mode 100644 images/mission/mission-main.png
+ create mode 100644 images/mission/mission-s2dgs.png
+ create mode 100644 images/product/product-b2b.png
+ create mode 100644 images/product/product-bg-left.png
+ create mode 100644 images/product/product-bg-right.png
+ create mode 100644 images/product/product-career.png
+ create mode 100644 images/product/product-main.png
+ create mode 100644 images/product/product-mantoman.png
+ create mode 100644 images/product/product-media.png
+ create mode 100644 index.html
+ create mode 100644 mission.html
+ create mode 100644 product.html
+ create mode 100644 style.css
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote add origin git@github.com:SA901105/html-css-basic-kadai.git
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote -v
+origin	git@github.com:SA901105/html-css-basic-kadai.git (fetch)
+origin	git@github.com:SA901105/html-css-basic-kadai.git (push)
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git push -u origin main
+Enter passphrase for key '/Users/makiayaka/.ssh/id_rsa': 
+To github.com:SA901105/html-css-basic-kadai.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:SA901105/html-css-basic-kadai.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote set-url origin git@github.com:SA901105/html-css-basic-kadai.git
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote -v
+origin	git@github.com:SA901105/html-css-basic-kadai.git (fetch)
+origin	git@github.com:SA901105/html-css-basic-kadai.git (push)
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git push -u origin main 
+Enter passphrase for key '/Users/makiayaka/.ssh/id_rsa': 
+To github.com:SA901105/html-css-basic-kadai.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:SA901105/html-css-basic-kadai.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % 
