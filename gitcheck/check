@@ -1,90 +1,48 @@
-Last login: Tue Feb 27 17:55:11 on ttys000
+Last login: Tue Mar 12 23:56:22 on ttys000
 makiayaka@sugitatakukinoMacBook ~ % ls
-Applications		Library			Public
-Desktop			Movies			git_tutorial
-Documents		Music			html-css-advanced-kadai
-Downloads		Pictures
+Applications		Movies			git_tutorial
+Desktop			Music			html-css-advanced-kadai
+Documents		Pictures		javascript-basic-kadai
+Downloads		Public
+Library			Sites
 makiayaka@sugitatakukinoMacBook ~ % cd Desktop
-makiayaka@sugitatakukinoMacBook Desktop % cd kadai_tutorial_output2            
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git init
-Initialized empty Git repository in /Users/makiayaka/Desktop/kadai_tutorial_output2/.git/
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git add .
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git commit -m "最初のコミット"
-[main (root-commit) d6af928] 最初のコミット
- 47 files changed, 1984 insertions(+)
- create mode 100644 images/TOP.png
- create mode 100644 images/arrow.png
- create mode 100644 images/button-close.png
- create mode 100644 images/button-facebook.png
- create mode 100644 images/button-menu.png
- create mode 100644 images/button-more.png
- create mode 100644 images/button-submit.png
- create mode 100644 images/button-twitter.png
- create mode 100644 images/button-youtube.png
- create mode 100644 images/index/index-aboutus1.png
- create mode 100644 images/index/index-aboutus2.png
- create mode 100644 images/index/index-b2b.png
- create mode 100644 images/index/index-career.png
- create mode 100644 images/index/index-main.png
- create mode 100644 images/index/index-mantoman.png
- create mode 100644 images/index/index-media.png
- create mode 100644 images/index/index-mission.png
- create mode 100644 images/index/s2dgs.png
- create mode 100644 images/index/vision-01.png
- create mode 100644 images/index/vision-02.png
- create mode 100644 images/index/vision-03.png
- create mode 100644 images/index/vision-04.png
- create mode 100644 images/index/vision-05.png
- create mode 100644 images/index/vision-06.png
- create mode 100644 images/index/vision-07.png
- create mode 100644 images/line.png
- create mode 100644 images/logo-sp.png
- create mode 100644 images/logo.png
- create mode 100644 images/mission/mission-5goals.png
- create mode 100644 images/mission/mission-5goals01.png
- create mode 100644 images/mission/mission-5goals02.png
- create mode 100644 images/mission/mission-5goals03.png
- create mode 100644 images/mission/mission-5goals04.png
- create mode 100644 images/mission/mission-5goals05.png
- create mode 100644 images/mission/mission-main.png
- create mode 100644 images/mission/mission-s2dgs.png
- create mode 100644 images/product/product-b2b.png
- create mode 100644 images/product/product-bg-left.png
- create mode 100644 images/product/product-bg-right.png
- create mode 100644 images/product/product-career.png
- create mode 100644 images/product/product-main.png
- create mode 100644 images/product/product-mantoman.png
- create mode 100644 images/product/product-media.png
- create mode 100644 index.html
- create mode 100644 mission.html
- create mode 100644 product.html
- create mode 100644 style.css
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote add origin git@github.com:SA901105/html-css-basic-kadai.git
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote -v
-origin	git@github.com:SA901105/html-css-basic-kadai.git (fetch)
-origin	git@github.com:SA901105/html-css-basic-kadai.git (push)
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git push -u origin main
-Enter passphrase for key '/Users/makiayaka/.ssh/id_rsa': 
-To github.com:SA901105/html-css-basic-kadai.git
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'github.com:SA901105/html-css-basic-kadai.git'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote set-url origin git@github.com:SA901105/html-css-basic-kadai.git
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git remote -v
-origin	git@github.com:SA901105/html-css-basic-kadai.git (fetch)
-origin	git@github.com:SA901105/html-css-basic-kadai.git (push)
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % git push -u origin main 
-Enter passphrase for key '/Users/makiayaka/.ssh/id_rsa': 
-To github.com:SA901105/html-css-basic-kadai.git
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'github.com:SA901105/html-css-basic-kadai.git'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-makiayaka@sugitatakukinoMacBook kadai_tutorial_output2 % 
+makiayaka@sugitatakukinoMacBook Desktop % cd javascript-basic-kadai
+makiayaka@sugitatakukinoMacBook javascript-basic-kadai % git add .
+makiayaka@sugitatakukinoMacBook javascript-basic-kadai % git commit -m "課題002 を提出"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   kadai-002 (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+makiayaka@sugitatakukinoMacBook javascript-basic-kadai % git branch -u origin/feature/1
+fatal: the requested upstream branch 'origin/feature/1' does not exist
+hint: 
+hint: If you are planning on basing your work on an upstream
+hint: branch that already exists at the remote, you may need to
+hint: run "git fetch" to retrieve it.
+hint: 
+hint: If you are planning to push out a new local branch that
+hint: will track its remote counterpart, you may want to use
+hint: "git push -u" to set the upstream config as you push.
+hint: Disable this message with "git config advice.setUpstreamFailure false"
+makiayaka@sugitatakukinoMacBook javascript-basic-kadai % git add .
+makiayaka@sugitatakukinoMacBook javascript-basic-kadai % git commit -m "課題002 を提出"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   kadai-002 (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+makiayaka@sugitatakukinoMacBook javascript-basic-kadai % git remote -v
+origin	https://github.com/SA901105/javascript-basic-kadai.git (fetch)
+origin	https://github.com/SA901105/javascript-basic-kadai.git (push)
+makiayaka@sugitatakukinoMacBook javascript-basic-kadai % 
